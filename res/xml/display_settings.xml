@@ -89,6 +89,13 @@
         <ListPreference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"/>
+        
+        <!-- Customization -->
+        <Preference
+            android:key="customisation"
+            android:fragment="com.android.settings.display.Customisation"
+            android:title="@string/customisation_title"
+            android:summary="@string/customisation_summary"/>
     </PreferenceCategory>
 
     <PreferenceCategory
